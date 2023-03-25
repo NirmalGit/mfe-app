@@ -4,9 +4,11 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { NxWelcomeComponent } from './nx-welcome.component';
 
+import { SharedLibModule} from '@mfe-app/shared-lib';
+
 @NgModule({
   declarations: [AppComponent, NxWelcomeComponent],
-  imports: [BrowserModule],
+  imports: [BrowserModule, SharedLibModule],
   providers: [],
   bootstrap: [AppComponent],
 })
