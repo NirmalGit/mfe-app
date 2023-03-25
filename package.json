@@ -37,6 +37,7 @@
     "@nrwl/eslint-plugin-nx": "14.8.8",
     "@nrwl/jest": "14.8.8",
     "@nrwl/linter": "14.8.8",
+    "@nrwl/storybook": "^15.8.9",
     "@nrwl/workspace": "14.8.8",
     "@types/jest": "28.1.1",
     "@types/node": "16.11.7",
